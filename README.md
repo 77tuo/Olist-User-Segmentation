@@ -34,5 +34,5 @@
 ## 6. 项目结构说明
 -   `0_data/`：存放数据，用于数据预处理及地理数据聚合的Jupyter Notebook，数据免责声明
 -   `1_sql/`：所有SQL脚本，包括建表、导入数据、探索性数据分析、视图创建及RFM分析查询
--   `powerbi/`：Power BI分析报告源文件 (.pbix)
+-   `2_powerbi/`：Power BI分析的一部分结果
 -   `images/`：README中引用的分析图表
