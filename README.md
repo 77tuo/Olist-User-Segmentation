@@ -6,7 +6,7 @@
 
 ## 2. 数据来源
 -   **来源**: Kaggle - Brazilian E-Commerce Public Dataset by Olist (9张CSV表格，包含订单、用户、商品、地理信息等维度)
--   **数据获取**: 原始数据文件未包含在本仓库中。请从 [这里](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) 下载，并按 `sql_queries/` 目录下的指引导入本地MySQL。
+-   **数据获取**: 原始数据文件包含在本仓库中。另渠道请从 [这里](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) 下载，并按 `1_sql/` 目录下的指引导入本地MySQL。
 
 ## 3. 分析工具
 -   **Python (Pandas)**: 数据预处理，如对地理坐标表进行聚合清洗
