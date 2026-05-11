@@ -18,7 +18,7 @@
 
 ├── reviews_sample_with_summary.md              ← 差评分类总结
 
-├── churn_user_values.csv                       ← 短周期-流失-超高消费 vs 短周期其他人群 平均消费 用户级数据
+├── churn_user_values.csv                       ← 短周期-流失-超高消费 vs 其余流失人群 平均消费 用户级数据
 
 
 ├── rfm_comparison.csv                          ← 新旧模型流失率对比
