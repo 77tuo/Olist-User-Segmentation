@@ -9,6 +9,8 @@
 
 ├── churn_p0_vs_active_high_value_comparison.csv     ← 短周期-流失-超高消费 vs 短周期-活跃-超高消费 评分情况与物流天数 订单级数据
 
+├── churn_p0_vs_active_high_value_review_coverage.csv     ← 短周期-流失-超高消费 vs 短周期-活跃-超高消费 评论覆盖率 统计口径：每个订单至少一条评论
+
 ├── statistical_test_results.csv                ← 所有统计检验结果汇总
 
 
