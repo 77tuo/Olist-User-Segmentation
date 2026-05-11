@@ -7,7 +7,7 @@
 ├── segment_32_stats_with_std.csv               ← 32个细分群体的均值和标准差
 
 
-├── churn_p0_vs_active_group_comparison.csv     ← 短周期-流失-超高消费 vs 短周期-活跃-超高消费 评分情况与物流天数 订单级数据
+├── churn_p0_vs_active_high_value_comparison.csv     ← 短周期-流失-超高消费 vs 短周期-活跃-超高消费 评分情况与物流天数 订单级数据
 
 ├── statistical_test_results.csv                ← 所有统计检验结果汇总
 
