@@ -29,4 +29,4 @@
 
 ├── ttest_p0_vs_other_churn_value.py              ← 检验短周期-流失-超高消费 vs 其他流失用户消费金额差异（Welch t检验）
 
-├── attribution_p0_vs_active_churn_analysis.py              ← 检验P0 vs 活跃高价值用户差评率 + 物流天数差异（卡方检验 + Welch t检验）
+├── attribution_p0_vs_active_churn_analysis.py    ← 检验短周期-流失-超高消费 vs 短周期-活跃-超高消费用户 差评率 + 物流天数差异（卡方检验 + Welch t检验）
