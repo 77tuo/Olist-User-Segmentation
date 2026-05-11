@@ -27,3 +27,4 @@
 
 ├── excel_analysis_supplement.xlsx              ← Excel补充分析
 
+├── ttest_p0_vs_other_churn_value.py              ← 检验短周期-流失-超高消费 vs 其他流失用户消费金额差异（Welch t检验）
