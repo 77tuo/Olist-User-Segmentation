@@ -1,7 +1,11 @@
 olist-user-segmentation/
+
 ├── README.md                          # 项目总览、背景、技术栈、快速导航
+
 │
+
 ├── 0_data/
+
 │   ├── README.md                      # 数据来源、清洗说明、免责声明
 │   ├── olist_orders_dataset.csv       # 原始数据（8个表）
 │   ├── olist_order_items_dataset.csv
