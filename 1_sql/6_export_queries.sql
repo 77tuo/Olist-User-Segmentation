@@ -200,7 +200,7 @@ WHERE R_segment = '流失';  -- 当前视图仅短、中周期有流失标签
 
 
 
--- 6. P0 vs 活跃高价值 订单级数据（churn_p0_vs_active_high_value_comparison.csv）
+-- 6. P0(短周期-流失-超高消费) vs 短周期-活跃-超高消费 订单级数据（churn_p0_vs_active_high_value_comparison.csv）
 -- 导出物流天数和评分，用于统计检验
 SELECT 
     CASE 
