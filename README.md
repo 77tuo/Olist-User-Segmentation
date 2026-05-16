@@ -23,40 +23,67 @@
 
 ## 项目结构
 olist-user-segmentation/
+
 ├── README.md # 本文件：项目总览
-│
+
 ├── 0_data/ # 原始数据集与清洗
+
 │ ├── README.md # 数据说明与免责声明
+
 │ ├── *.csv # Kaggle Olist 原始数据（9个表）
+
 │ ├── olist_geolocation_dataset.zip # 地理信息表压缩版
+
 │ ├── EDA_and_dataset_clean.py # 探索分析与地理数据清洗
+
 │ └── olist_geolocation_cleaned.csv # 清洗后的地理信息
-│
+
 ├── 1_sql/ # 完整SQL代码
+
 │ ├── README.md # 表结构图与执行顺序说明
+
 │ ├── 0_create_database.sql # 创建数据库
+
 │ ├── 1_create_tables.sql # 创建9张表及外键索引
+
 │ ├── 2_import_data.sql # 从CSV导入数据
-│ ├── 3_special_handling_*.sql # 评论表数据处理
+
+│ ├── 3_special_handling_olist_order_reviews_dataset.sql # 评论表数据处理
+
 │ ├── 4_EDA.sql # 探索性分析查询
+
 │ ├── 5_create_view_user_segmentation.sql # 核心视图：全量用户分层打标
+
 │ └── 6_export_queries.sql # 所有CSV导出查询
-│
+
 ├── 2_csv/ # 分析产出与统计检验
+
 │ ├── category_sales_summary.csv # 73个品类销售汇总（含品类周期）
+
 │ ├── segment_32_value_table.csv # 32个细分群体价值表
+
 │ ├── M_threshold_summary.csv # M阈值分位点验证
+
 │ ├── segment_32_stats_with_std.csv # 32个群体均值与标准差
+
 │ ├── rfm_comparison.csv # 新旧模型流失率对比
-│ ├── churn_p0_vs_active_*.csv # P0 vs 活跃高价值（订单级对比）
-│ ├── churn_user_values.csv # P0 vs 其余流失用户（消费金额）
+
+│ ├── churn_p0_vs_active_high_value_comparison.csv # 短周期-流失-超高消费(P0) vs 短周期-活跃-超高消费（订单级对比）
+
+│ ├── churn_user_values.csv # 短周期-流失-超高消费(P0) vs 其余流失用户（消费金额）
+
 │ ├── statistical_test_results.csv # 统计检验结果汇总
+
 │ ├── churn_negative_reviews.csv # 26条差评原文及翻译
+
 │ ├── reviews_sample_with_summary.md # 差评分类总结
+
 │ ├── ttest_p0_vs_other_churn_value.py # 消费金额 Welch t 检验
+
 │ └── attribution_p0_vs_active_churn_analysis.py # 归因分析双检验
-│
+
 └── 3_powerbi/
+
 └── olist_user_segmentation.pbix # 6页Power BI静态报告
 
 
