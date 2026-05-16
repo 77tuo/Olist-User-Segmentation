@@ -197,6 +197,9 @@ FROM vw_user_segmentation_cycle_based
 CROSS JOIN total_users t
 WHERE R_segment = '流失';  -- 当前视图仅短、中周期有流失标签
 
+
+
+
 -- 6. P0(短周期-流失-超高消费) vs 其余流失人群 平均消费差异 用户级数据（churn_user_values.csv）
 -- 导出消费金额和标签，用于统计检验
 SELECT 
@@ -211,6 +214,9 @@ SELECT
     END AS group_label
 FROM vw_user_segmentation_cycle_based
 WHERE R_segment = '流失';   -- 只筛选所有流失用户，然后通过CASE标记组别
+
+
+
 
 -- 7. P0(短周期-流失-超高消费) vs 短周期-活跃-超高消费 订单级数据（churn_p0_vs_active_high_value_comparison.csv）
 -- 导出物流天数和评分，用于统计检验
