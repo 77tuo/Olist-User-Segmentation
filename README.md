@@ -1,5 +1,5 @@
 # Olist 电商用户分层与策略分析
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 ## 1. 项目背景
 本项目以巴西 Olist 电商平台真实公开交易数据为基础，模拟从 0 到 1 构建一套**可落地的用户价值分层体系**，并针对不同用户群提出精细化运营策略。目标是展示从数据导入、清洗、分析建模到报告输出及商业建议的完整闭环。
