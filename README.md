@@ -26,6 +26,8 @@ olist-user-segmentation/
 
 ├── README.md # 本文件：项目总览
 
+├── directory.md # 项目目录
+
 ├── 0_data/ # 原始数据集与清洗
 
 │ ├── README.md # 数据说明与免责声明
