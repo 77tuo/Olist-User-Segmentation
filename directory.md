@@ -74,4 +74,6 @@ olist-user-segmentation/
 
 └── 3_powerbi/
 
-│   ├── olist_user_segmentation.pbix            # 完整 Power BI 报告
+│   ├── olist_user_segmentation.pbix            # 完整 Power BI 工程文件
+
+│   ├── olist_user_segmentation.pdf            # 完整 Power BI 报告
